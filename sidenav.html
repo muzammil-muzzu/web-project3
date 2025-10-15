@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+    <HEAD>
+        <meta charset="UTFF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <TITLE>side navigation example</TITLE>
+        <style>
+            body{
+                margin:o;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            /*side navigation*/
+            .sidenav{
+                height:100%;
+                width:200px;
+                position: fixed;
+                top:0%;
+                left: 0%;
+                background-color: blue;
+                overflow: auto ;
+                padding-top:20px;
+
+            }
+            .sidenav a{
+                display: block;
+                color: aquamarine;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+            .sidenav a:hover{
+                background-color: black;
+                color: chartreuse;
+            }
+            .content{
+                margin-left: 220px;
+                padding: 20px;
+            }
+
+        </style>
+    </HEAD>
+    <body>
+        <!--side navigation-->
+        <div class="sidenav">
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+            <a href="setting.html">SETTING</a>
+            <a href="help.html">HELP</a>
+        </div>
+        <!--PAGE CONTENT-->
+        <div class="content">
+            <h2>SIDE NAVIGATION BAR</h2>
+            <p>scroll to see the sidenav stay while content moves.</p>
+            <p>more demo content..</p>
+            <p>more demo content..</p>
+            <p>more demo content..</p>
+            <p>more demo content..</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>top navigation exaple</title>
+        <style>
+            body{
+                margin:1;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        .topnav{
+            overflow: hidden;
+            background-color: #333;
+        }
+        .topnav a{
+            float:left;
+            color: #f2f2f2;
+            text-align:center;
+            padding:26px 16px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .topnav a:hover{
+            background-color:darkgreen;
+            color:#000;
+        }
+        .topnav a.active{
+            background-color: red;
+            color:#fff;
+        }
+
+        .wrapper {display:flex; flex-wrap: wrap; max-width: 900px; margin: auto; gap: 20px; justify-content: center;}
+        .box { flex: 1; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 4px 10px rgba(red, green, blue, alpha); transition: transform 0.2s eas, box-shadow 0.2s ease;}
+        .box:hover{transform:translate Y(-3PX); box-shadow: 0 6PX 14PX rgba(0,0,0,0.1);}
+        h2{ margin-top: 0%; margin-bottom: 15px; text-align: center; color: #007bff;}
+        label{ display: block; margin-top: 10px; font-weight: bold;}
+        input,textarea,button{ width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;
+        font-size: 14px; box-sizing: border-box; }
+        button{ background: #007bff; color: #fff; border:none; cursor: pointer; margin-top: 15px; transition:background 0.2s ease;}
+        button:hover{ background: #0056b3;}
+        p{ margin:10px 0 ;}
+        .topnav img{
+            float: left;
+        }
+        </style>
+    </head>
+    <body>
+        <!--top navigation bar-->
+        <div class="topnav">
+            <img src="C:\Users\malna\Desktop\website4\images web\School-Mission.jpg" height="80">
+            <a  href="index.html">HOME</a>
+            <A href="ABOUT.HTML">ABOUT</A>
+            <a href="ACADEMICS.HTML">ACADEMICS</a>
+            <a href="admissions.html">ADMISSIONS</a>
+               <a href="facilities.html">FACILITIES</a>
+            <a href="gallery.html">GALLERY</a>
+            <a class="active"href="contact.html">CONTACT</a>
+        </div>
+        <!--page content-->
+        <div style="padding: 20px;">
+            <h2>CONATCT SUPPORT</h2>
+            
+        </div>
+
+        <div class="wrapper">
+
+<div class="box">
+
+<h2>Contact Information</h2>
+
+<p><strong>Address:</strong>India</p>
+
+<p><strong>Phone:</strong> +91 9876543210</p>
+
+<p><strong>Email:</strong> info@example.com</p>
+
+<p><strong>Open:</strong> Daily 11:00 AM-11:00 PM</p>
+
+</div>
+
+<div class="box">
+
+<h2>Send a Message</h2>
+
+<form action="" method="post">
+
+<label>Name</label>
+
+<input type="text" name="name" required />
+
+<label>Email</label>
+
+<input type="email" name="email" required />
+
+<label>Message</label>
+
+<textarea name="message" rows="4" required></textarea>
+
+<button type="submit">Send</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.493515684162!2d75.57086117586702!3d13.929194893160075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba8d88f471d1b%3A0xb5587c43b5a99ef9!2sMOUNTAININNOVATIVE%20SCHOOL!5e0!3m2!1sen!2sin!4v1757316960327!5m2!1sen!2sin" width="2000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> 
+        <footer style="background: #1a1a1a;color: #fff;padding: 40px 0;font-family: Arial, Helvetica, sans-serif;">
+    <div style="display:flex; justify-content: space-between;max-width: 1200px;margin:auto;flex-wrap: wrap;">
+
+        <!--section 1:logo+about-->
+        <div style="flex: 1;min-width: 220px;padding: 15px;">
+        <img src="C:\Users\malna\Desktop\website4\images web\School-Mission.jpg"alt="company logo"style="width:150px;margin-bottom:15px";>
+        <p>We provide innovative solutions to help businesses grow and succeed in the digital world</p>
+    </div>
+
+<!--section 2:quick links-->
+<div style="flex:1; min-width:200px; padding:15px;">
+    <h3>Quick Links</h3>
+    <p><a href="index.html" style="color:#ccc; text-decoration: none;">HOME</a></p>
+    <p><a href="about.html" style="color:#ccc; text-decoration: none;">ABOUT</a></p>
+    <p><a href="academics.html" style="color:#ccc; text-decoration: none;">ACADEMICS</a></p>
+    <p><a href="admissions.html"style="color:#ccc; text-decoration: none;">ADMISSIONS</a></p> 
+     <p><a href="fesities.html" style="color:#ccc; text-decoration: none;">FACILITIES</a></p>
+    <p><a href="gallery.html" style="color:#ccc; text-decoration: none;">GALLERY</a></p>
+    <p><a href="contact.html" style="color:#ccc; text-decoration: none;">CONTACT</a></p>
+</div>
+
+<!--section 3:Contact info-->
+<div style="flex:1; min-width: 200px; padding: 15px;">
+    <h3>Contact</h3>
+    <p>Email:Support@comany.com</p>
+    <p>Phone: +91 8310419029</p>
+    <p>Address: Shivamogga, Karnataka</p>
+</div>
+
+<!--section 4: Social Media-->
+<div style="flex: 1; min-width: 200px; padding: 15px;">
+    <h3>FOLLOW ME</h3>
+    <p>
+        <a href="https://www.facebook.com/" style="color: white; margin-right: 10px; text-decoration: none;">Face Book</a><br>
+        <a href="https://www.instagram.com/_muzzii_0?igsh=bDg4M3p0eDIzY2ti" style="color: white; margin-right: 10px; text-decoration: none;">Instagram</a><br>
+        
+        <a href="https://in.linkedin.com/" style="color: white; margin-right: 10px; text-decoration: none;">Linkedin</a><br>
+        <a href="https://x.com/" style="color: white; margin-right: 10px; text-decoration: none;">Twitter</a><br>
+        </p>
+</div>
+</div>
+<!--Footer Bootom-->
+<p style="text-align: center; margin-top: 20px; border-top: 1px solid#444; padding-top: 10px; font-size: 14px;">
+    &copy 2025 MOHAMMED MUZAMMIL. ALL RIGHTS RESERVER
+</p>
+
+
+
+
+</footer>
+    </body>
+</html>
